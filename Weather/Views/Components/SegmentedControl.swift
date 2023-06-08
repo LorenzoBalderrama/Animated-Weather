@@ -20,6 +20,7 @@ struct SegmentedControl: View {
                     }
                 } label: {
                     Text("Hourly Forecast")
+                        .foregroundColor(.white)
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
 
@@ -29,6 +30,7 @@ struct SegmentedControl: View {
                     }
                 } label: {
                     Text("Weekly Forecast")
+                        .foregroundColor(.white)
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
             }
